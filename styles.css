@@ -1176,6 +1176,8 @@ footer{
 }
 
 .bottom{
+    width: 85%;
+    justify-self: center;
     display: grid;
     grid-template-columns: repeat(7, 1fr) ;
     grid-template-rows: 1fr  1fr 1fr  ;
@@ -1191,7 +1193,7 @@ footer{
     height: 50%;
 }
 .follow{
-    grid-column: 6;
+    grid-column: 7;
     width: 100%;
     justify-self: center;
 }
