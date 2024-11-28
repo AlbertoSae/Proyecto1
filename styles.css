@@ -1179,8 +1179,8 @@ footer{
     display: grid;
     grid-template-columns: repeat(7, 1fr) ;
     grid-template-rows: 1fr  1fr 1fr  ;
-}
 
+}
 .pay>p{
     font-size: calc(0.8rem + 0.5vw);
     color: #000;
@@ -1191,8 +1191,9 @@ footer{
     height: 50%;
 }
 .follow{
-    grid-column: 7;
-
+    grid-column: 6;
+    width: 100%;
+    justify-self: center;
 }
 .follow>p{
     font-size: calc(0.8rem + 0.5vw);
@@ -1277,6 +1278,10 @@ footer{
     }
     .bottom p{
         font-size: calc(1rem + 0.5vw);
+    }
+    .follow{
+        width:20%;
+        right: 0px;
     }
     .follow>ul>li{
         width: 5%;
